@@ -60,6 +60,17 @@ npm run build
 node dist/example.js
 ```
 
+MCP Server Configuration(VScode...):
+```json
+"bilibili": {
+    "type": "stdio",
+    "command": "<bun path>",
+    "args": [
+        "<full_path_to_this_project>/bilibili-mcp-js/index.ts"
+    ]
+}
+```
+
 ## 截图
 ![](./imgs/test-01.png)
 ![](./imgs/test-02.png)
